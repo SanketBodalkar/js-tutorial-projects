@@ -48,10 +48,21 @@ let add = num1 + "5"; // "125" (string concatenation)
 
 let value1 = 102 ;
 let negValue= - value1; // -102
-console.log("Negative value: " + negValue);
+// console.log("Negative value: " + negValue);
 
 // String concatenation
 let str1 = "Hello";
 let str2 = "World";
 
-console.log("Concatenated string: " + str1 + str2); // "Hello World"
+// console.log("Concatenated string: " + str1 + str2); // "Hello World"
+
+// counter with increment and decrement operators
+let counter = 10;
+counter++;
+console.log("Counter after increment: " + counter); // 11
+counter--;
+console.log("Counter after decrement: " + counter); // 10
+++counter;
+console.log("Counter after pre-increment: " + counter);
+--counter;
+console.log("Counter after pre-decrement: " + counter);
